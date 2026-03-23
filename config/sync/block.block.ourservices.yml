@@ -1,0 +1,25 @@
+uuid: 9563787f-916b-442b-bdda-cefdada7b5d7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_creative:8b72ba40-e989-49e0-ab95-58730c796b2d'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: ourservices
+theme: corporateclean
+region: content_top_highlighted
+weight: -8
+provider: null
+plugin: 'block_content:8b72ba40-e989-49e0-ab95-58730c796b2d'
+settings:
+  id: 'block_content:8b72ba40-e989-49e0-ab95-58730c796b2d'
+  label: 'Our Services'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

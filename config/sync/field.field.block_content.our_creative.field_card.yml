@@ -1,0 +1,31 @@
+uuid: 74f71920-6006-4991-bb38-fc65e2905edd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_creative
+    - field.storage.block_content.field_card
+    - paragraphs.paragraphs_type.cards
+  module:
+    - entity_reference_revisions
+id: block_content.our_creative.field_card
+field_name: field_card
+entity_type: block_content
+bundle: our_creative
+label: Card
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cards: cards
+    negate: 0
+    target_bundles_drag_drop:
+      cards:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

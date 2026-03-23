@@ -1,0 +1,8 @@
+uuid: 104726a2-d7a9-4a81-8050-92e3bc93fcda
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_table
+label: 'Pricing Table'
+revision: false
+description: 'Pricing section of the company'

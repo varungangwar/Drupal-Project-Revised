@@ -1,0 +1,19 @@
+uuid: d5c45c44-a5d0-4eaa-b441-5ab04a2b104d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.primary_block
+    - field.storage.block_content.field_heading
+id: block_content.primary_block.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: primary_block
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: e0393d53-1268-42ab-a80b-860ebb084087
+name: 'Modern Creative'
+mail: demo@demo.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/11
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

@@ -1,0 +1,21 @@
+uuid: c104a1b0-138f-4d9c-9d3b-a2b6f7b5ddcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pricedescription
+    - paragraphs.paragraphs_type.price_card
+  module:
+    - text
+id: paragraph.price_card.field_pricedescription
+field_name: field_pricedescription
+entity_type: paragraph
+bundle: price_card
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,9 @@
+uuid: 5edfe31c-237b-4fe1-8b67-3bd1a1b99f41
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog Category'
+vid: blog_category
+description: 'all the blogs vareity.'
+weight: 0
+new_revision: false

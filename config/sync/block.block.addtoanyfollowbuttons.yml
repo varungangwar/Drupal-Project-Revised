@@ -1,0 +1,22 @@
+uuid: 570250d6-4217-44a2-8b2b-c6652dd8a106
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - corporateclean
+id: addtoanyfollowbuttons
+theme: corporateclean
+region: footer_bottom_first
+weight: 0
+provider: null
+plugin: addtoany_follow_block
+settings:
+  id: addtoany_follow_block
+  label: 'Social Icons'
+  label_display: '0'
+  provider: addtoany
+  buttons_size: null
+  addtoany_html: "<div class=\"a2a_kit a2a_default_style\">\r\n  <a class=\"a2a_button_facebook\"></a>\r\n  <a class=\"a2a_button_twitter\"></a>\r\n  <a class=\"a2a_button_linkedin\"></a>\r\n  <a class=\"a2a_button_pinterest\"></a>\r\n  <a class=\"a2a_button_instagram\"></a>\r\n</div>"
+visibility: {  }

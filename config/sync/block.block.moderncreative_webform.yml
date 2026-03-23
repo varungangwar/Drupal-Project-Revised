@@ -1,0 +1,26 @@
+uuid: 04d0cb09-8fcd-4cc7-b251-bbd3435c32fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.get_in_touch
+  module:
+    - webform
+  theme:
+    - moderncreative
+id: moderncreative_webform
+theme: moderncreative
+region: contact
+weight: -16
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Get In Touch'
+  label_display: visible
+  provider: webform
+  webform_id: get_in_touch
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }

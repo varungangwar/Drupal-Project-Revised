@@ -1,0 +1,10 @@
+uuid: 3becc97c-fd07-4cfd-bbe7-4f6d04b5f554
+langcode: en
+status: true
+dependencies: {  }
+id: testinomials
+label: Testinomials
+icon_uuid: null
+icon_default: null
+description: 'all the reviews of the customers.'
+behavior_plugins: {  }

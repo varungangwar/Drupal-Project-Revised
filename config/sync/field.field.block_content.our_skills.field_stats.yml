@@ -1,0 +1,34 @@
+uuid: 2348971e-d080-483e-b57b-2dcb3ff7d5ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_skills
+    - field.storage.block_content.field_stats
+    - paragraphs.paragraphs_type.stats
+  module:
+    - entity_reference_revisions
+id: block_content.our_skills.field_stats
+field_name: field_stats
+entity_type: block_content
+bundle: our_skills
+label: Stats
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      stats: stats
+    negate: 0
+    target_bundles_drag_drop:
+      cards:
+        weight: 3
+        enabled: false
+      stats:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

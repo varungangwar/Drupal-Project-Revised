@@ -1,0 +1,20 @@
+uuid: 60aa836f-0718-4d9f-9edb-5165b91f5a69
+langcode: en
+status: false
+dependencies:
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: w6coiw26aFAdq3B3I37TrW_vF0Mzv-kPBfY1JZlI4BE
+id: moderncreative_local_actions
+theme: moderncreative
+region: header
+weight: -11
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

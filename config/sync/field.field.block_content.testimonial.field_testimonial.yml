@@ -1,0 +1,43 @@
+uuid: 8b8c52a6-0774-416e-8efc-fb4fd751b203
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonial
+    - field.storage.block_content.field_testimonial
+    - paragraphs.paragraphs_type.testinomials
+  module:
+    - entity_reference_revisions
+id: block_content.testimonial.field_testimonial
+field_name: field_testimonial
+entity_type: block_content
+bundle: testimonial
+label: Testimonial
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      testinomials: testinomials
+    negate: 0
+    target_bundles_drag_drop:
+      _secondary:
+        weight: 10
+        enabled: false
+      cards:
+        weight: 6
+        enabled: false
+      price_card:
+        weight: 7
+        enabled: false
+      stats:
+        weight: 8
+        enabled: false
+      testinomials:
+        weight: 9
+        enabled: true
+field_type: entity_reference_revisions

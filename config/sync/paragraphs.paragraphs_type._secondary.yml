@@ -1,0 +1,10 @@
+uuid: d7020bb3-8a9e-4b24-a523-f4c8565efa8c
+langcode: en
+status: true
+dependencies: {  }
+id: _secondary
+label: ' Secondary'
+icon_uuid: null
+icon_default: null
+description: "Consist of company's growth stats"
+behavior_plugins: {  }

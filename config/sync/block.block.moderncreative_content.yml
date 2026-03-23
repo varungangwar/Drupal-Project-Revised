@@ -1,0 +1,22 @@
+uuid: 9b70ad4a-c4b1-4262-98cc-80a87aa763fe
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: sZaq5OOund0FZ27hFgVin0QYoFejHmFtkpJ6VXsOwRE
+id: moderncreative_content
+theme: moderncreative
+region: primary_menu
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 7aadc07f-8e2b-40ae-a1c0-2de5c3364f5b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+  module:
+    - block_content
+  theme:
+    - moderncreative
+id: moderncreative_subscribetoournewsletter
+theme: moderncreative
+region: footer
+weight: -14
+provider: null
+plugin: 'block_content:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+settings:
+  id: 'block_content:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+  label: 'Subscribe To Our Newsletter'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

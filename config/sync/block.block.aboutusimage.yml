@@ -1,0 +1,25 @@
+uuid: 55f2af70-e5ae-4abe-86d8-a1b2d5c0316a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:3e43bc94-9515-4c36-a72b-9e1f0091d243'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: aboutusimage
+theme: corporateclean
+region: hero_first
+weight: 0
+provider: null
+plugin: 'block_content:3e43bc94-9515-4c36-a72b-9e1f0091d243'
+settings:
+  id: 'block_content:3e43bc94-9515-4c36-a72b-9e1f0091d243'
+  label: 'About Us Image'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

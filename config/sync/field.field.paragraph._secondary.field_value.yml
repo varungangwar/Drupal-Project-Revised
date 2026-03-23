@@ -1,0 +1,23 @@
+uuid: ad450b78-8e70-45c5-9ee6-2936fede25a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_value
+    - paragraphs.paragraphs_type._secondary
+id: paragraph._secondary.field_value
+field_name: field_value
+entity_type: paragraph
+bundle: _secondary
+label: Value
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

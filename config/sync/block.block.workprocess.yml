@@ -1,0 +1,25 @@
+uuid: e0375215-b2b7-4d66-bed4-2590d2c27991
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_creative:ed53824a-3566-465e-b968-fe62002064ce'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: workprocess
+theme: corporateclean
+region: content_bottom_first
+weight: -7
+provider: null
+plugin: 'block_content:ed53824a-3566-465e-b968-fe62002064ce'
+settings:
+  id: 'block_content:ed53824a-3566-465e-b968-fe62002064ce'
+  label: 'WORK PROCESS'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

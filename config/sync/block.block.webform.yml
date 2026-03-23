@@ -1,0 +1,26 @@
+uuid: 9c62590d-e7c0-429b-9c2a-cbe88a0d0aa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.get_in_touch
+  module:
+    - webform
+  theme:
+    - corporateclean
+id: webform
+theme: corporateclean
+region: highlighted_top
+weight: -9
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Get In Touch'
+  label_display: visible
+  provider: webform
+  webform_id: get_in_touch
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }

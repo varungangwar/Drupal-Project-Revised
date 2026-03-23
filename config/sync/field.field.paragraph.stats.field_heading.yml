@@ -1,0 +1,19 @@
+uuid: 5efec54a-baca-435e-9f97-c1bc8c301e34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: stats
+label: Skill
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

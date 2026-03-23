@@ -1,0 +1,24 @@
+uuid: 4755d400-15c5-4803-92e6-51b3aba176c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - views
+  theme:
+    - moderncreative
+id: moderncreative_views_block__blog_block_1
+theme: moderncreative
+region: blog
+weight: -16
+provider: null
+plugin: 'views_block:blog-block_1'
+settings:
+  id: 'views_block:blog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

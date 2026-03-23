@@ -1,0 +1,23 @@
+uuid: 7f27f9e2-08eb-4217-98b3-05438a6a3571
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_skills
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.our_skills.body
+field_name: body
+entity_type: block_content
+bundle: our_skills
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

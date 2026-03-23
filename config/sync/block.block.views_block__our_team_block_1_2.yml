@@ -1,0 +1,24 @@
+uuid: 976d127f-40eb-42bd-bff4-2071904ede4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_team
+  module:
+    - views
+  theme:
+    - moderncreative
+id: views_block__our_team_block_1_2
+theme: moderncreative
+region: team
+weight: -16
+provider: null
+plugin: 'views_block:our_team-block_1'
+settings:
+  id: 'views_block:our_team-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

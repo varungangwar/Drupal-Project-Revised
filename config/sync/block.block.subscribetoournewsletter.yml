@@ -1,0 +1,25 @@
+uuid: 63dee16f-5cf0-450c-aaa9-4a2f116daa3f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: subscribetoournewsletter
+theme: corporateclean
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+settings:
+  id: 'block_content:950bacb6-ac65-4dfc-b8e0-efbb5714d7e9'
+  label: 'Subscribe To Our Newsletter'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

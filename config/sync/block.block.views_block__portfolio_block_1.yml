@@ -1,0 +1,24 @@
+uuid: 9a855fd9-0a9c-456c-94c4-bab65fa1d818
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - views
+  theme:
+    - corporateclean
+id: views_block__portfolio_block_1
+theme: corporateclean
+region: content_bottom_first
+weight: -11
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: '6'
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 8627b2a3-60ea-4504-8c3e-45b6451d37df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_table
+    - field.field.block_content.pricing_table.field_description
+    - field.field.block_content.pricing_table.field_pricing
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.pricing_table.default
+targetEntityType: block_content
+bundle: pricing_table
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pricing:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

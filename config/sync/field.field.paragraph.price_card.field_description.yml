@@ -1,0 +1,23 @@
+uuid: 09558a80-3c93-4032-aeed-a66c8c500d9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.price_card
+  module:
+    - text
+id: paragraph.price_card.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: price_card
+label: Price
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

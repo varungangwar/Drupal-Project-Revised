@@ -1,0 +1,25 @@
+uuid: ea8004c4-196a-4a05-a5de-862a90a29719
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_creative:fe23eef0-84fc-44ed-8231-29e12816002b'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: ourcreative
+theme: corporateclean
+region: content_top
+weight: -7
+provider: null
+plugin: 'block_content:fe23eef0-84fc-44ed-8231-29e12816002b'
+settings:
+  id: 'block_content:fe23eef0-84fc-44ed-8231-29e12816002b'
+  label: 'Our Creative'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

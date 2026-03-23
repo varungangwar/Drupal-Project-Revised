@@ -1,0 +1,29 @@
+uuid: 782022f5-4172-47f7-9601-a16e7e80574e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logo
+    - media.type.image
+    - paragraphs.paragraphs_type.cards
+id: paragraph.cards.field_logo
+field_name: field_logo
+entity_type: paragraph
+bundle: cards
+label: logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

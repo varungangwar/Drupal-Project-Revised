@@ -1,0 +1,25 @@
+uuid: 730cf661-9636-48fc-96bc-62297be9426f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:primary_block:5cb394ce-8638-4402-8b29-289c1758bff5'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: aboutussection
+theme: corporateclean
+region: hero_first
+weight: 0
+provider: null
+plugin: 'block_content:5cb394ce-8638-4402-8b29-289c1758bff5'
+settings:
+  id: 'block_content:5cb394ce-8638-4402-8b29-289c1758bff5'
+  label: 'About Us Section'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

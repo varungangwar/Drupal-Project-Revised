@@ -1,0 +1,10 @@
+uuid: def6b7e5-9f37-4e06-a66a-c7694d755c0c
+langcode: en
+status: true
+dependencies: {  }
+id: stats
+label: Stats
+icon_uuid: null
+icon_default: null
+description: 'Graphical representation of skills.'
+behavior_plugins: {  }

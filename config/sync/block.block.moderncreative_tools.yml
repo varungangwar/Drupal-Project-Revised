@@ -1,0 +1,27 @@
+uuid: 422f0386-7037-42e5-b4cd-210f549dd75a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: cnrpw-fQvYaTRv11PYIUbkpsYT0G19709C61n51cNv0
+id: moderncreative_tools
+theme: moderncreative
+region: primary_menu
+weight: -11
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

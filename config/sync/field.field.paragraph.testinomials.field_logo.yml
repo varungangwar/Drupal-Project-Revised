@@ -1,0 +1,29 @@
+uuid: 6139e64d-ce05-4300-b8d5-5cf6c63f4624
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logo
+    - media.type.image
+    - paragraphs.paragraphs_type.testinomials
+id: paragraph.testinomials.field_logo
+field_name: field_logo
+entity_type: paragraph
+bundle: testinomials
+label: profile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

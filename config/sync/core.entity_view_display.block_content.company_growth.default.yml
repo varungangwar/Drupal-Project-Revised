@@ -1,0 +1,24 @@
+uuid: ac461dd2-a00a-4196-b083-cc90af92e064
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.company_growth
+    - field.field.block_content.company_growth.field_growth
+  module:
+    - entity_reference_revisions
+id: block_content.company_growth.default
+targetEntityType: block_content
+bundle: company_growth
+mode: default
+content:
+  field_growth:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

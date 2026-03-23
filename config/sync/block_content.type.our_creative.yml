@@ -1,0 +1,8 @@
+uuid: f84e556a-0541-49b4-a76b-e6506c39eaad
+langcode: en
+status: true
+dependencies: {  }
+id: our_creative
+label: 'Our Creative'
+revision: false
+description: 'Block having all the cards containing main roles of the company.'

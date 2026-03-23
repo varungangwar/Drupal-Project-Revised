@@ -1,0 +1,37 @@
+uuid: 05d4bc4d-0697-454a-a403-880368cbbfe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.company_growth
+    - field.storage.block_content.field_growth
+    - paragraphs.paragraphs_type._secondary
+  module:
+    - entity_reference_revisions
+id: block_content.company_growth.field_growth
+field_name: field_growth
+entity_type: block_content
+bundle: company_growth
+label: growth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      _secondary: _secondary
+    negate: 0
+    target_bundles_drag_drop:
+      _secondary:
+        weight: 6
+        enabled: true
+      cards:
+        weight: 4
+        enabled: false
+      stats:
+        weight: 5
+        enabled: false
+field_type: entity_reference_revisions

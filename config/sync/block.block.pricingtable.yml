@@ -1,0 +1,25 @@
+uuid: c9ada652-f8dd-49d3-830e-81b4964e3a3e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pricing_table:10125014-4203-4cf7-9850-88c454324047'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: pricingtable
+theme: corporateclean
+region: content_bottom_first
+weight: -8
+provider: null
+plugin: 'block_content:10125014-4203-4cf7-9850-88c454324047'
+settings:
+  id: 'block_content:10125014-4203-4cf7-9850-88c454324047'
+  label: 'Pricing Table'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

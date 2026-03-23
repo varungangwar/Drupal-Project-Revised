@@ -1,0 +1,18 @@
+uuid: 06b81d54-cc67-44e7-9f43-2fa3859ada5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Blog
+type: blog
+description: 'all the blogs available on the site.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

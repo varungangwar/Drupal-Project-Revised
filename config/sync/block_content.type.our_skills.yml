@@ -1,0 +1,8 @@
+uuid: a68113f5-5c5b-49bc-bbc4-77c73840d95b
+langcode: en
+status: true
+dependencies: {  }
+id: our_skills
+label: 'Our Skills'
+revision: false
+description: 'Block having all the skills that company has.'

@@ -1,0 +1,19 @@
+uuid: 9f9a93a6-54a8-49fd-8fa1-8f68d867b3e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.price_card
+id: paragraph.price_card.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: price_card
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

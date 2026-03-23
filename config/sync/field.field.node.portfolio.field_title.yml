@@ -1,0 +1,19 @@
+uuid: 92499686-9ede-4e1f-92cd-1c0a8c9bb58b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.portfolio
+id: node.portfolio.field_title
+field_name: field_title
+entity_type: node
+bundle: portfolio
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

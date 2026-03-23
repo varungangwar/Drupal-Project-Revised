@@ -1,0 +1,25 @@
+uuid: 2336f5b7-94bd-4108-b1bd-bbdd6d05cb53
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_skills:42dda184-0caf-4283-9a01-f05c30458c85'
+  module:
+    - block_content
+  theme:
+    - moderncreative
+id: ourskills_2
+theme: moderncreative
+region: skills
+weight: -16
+provider: null
+plugin: 'block_content:42dda184-0caf-4283-9a01-f05c30458c85'
+settings:
+  id: 'block_content:42dda184-0caf-4283-9a01-f05c30458c85'
+  label: 'Our Skills'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

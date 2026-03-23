@@ -1,0 +1,27 @@
+uuid: 846cd46a-95ac-4694-b5e3-8326f0ef1cce
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: zWC_s29Mvbz0PE7AsprkZ2DC5a0VV32ishCZ5Ex-tUQ
+id: moderncreative_main_menu
+theme: moderncreative
+region: primary_menu
+weight: -13
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

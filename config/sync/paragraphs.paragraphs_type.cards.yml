@@ -1,0 +1,10 @@
+uuid: 276edad7-cbdb-4aac-adb7-4091b21bbb94
+langcode: en
+status: true
+dependencies: {  }
+id: cards
+label: Cards
+icon_uuid: null
+icon_default: null
+description: 'All the cards on the site are formed using this paragraphs.'
+behavior_plugins: {  }

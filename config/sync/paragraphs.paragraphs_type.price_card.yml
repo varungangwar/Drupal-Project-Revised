@@ -1,0 +1,10 @@
+uuid: 5dcf852a-b6c2-4dbe-a817-7be1d6a63fc2
+langcode: en
+status: true
+dependencies: {  }
+id: price_card
+label: 'Price Card'
+icon_uuid: null
+icon_default: null
+description: 'all the price cards in the site.'
+behavior_plugins: {  }

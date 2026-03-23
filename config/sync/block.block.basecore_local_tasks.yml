@@ -1,0 +1,22 @@
+uuid: 3bfa4126-c09c-4dfa-a114-4c33ddebd7d2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - basecore
+_core:
+  default_config_hash: C1SyEfalp5FZKUJQQDgKSW-1mV_yXylXjKDJAFzKFNk
+id: basecore_local_tasks
+theme: basecore
+region: content
+weight: -16
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 5cad7bb7-1407-4cb3-8fa9-a0229ac359cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:primary_block:95fdf2a2-1ab4-4a7c-89f5-09b19da7de0f'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: herobanner
+theme: corporateclean
+region: hero_top
+weight: 0
+provider: null
+plugin: 'block_content:95fdf2a2-1ab4-4a7c-89f5-09b19da7de0f'
+settings:
+  id: 'block_content:95fdf2a2-1ab4-4a7c-89f5-09b19da7de0f'
+  label: 'Hero Banner'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

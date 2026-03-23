@@ -1,0 +1,21 @@
+uuid: fa409ae9-6d31-4beb-b19b-0bbfe1fb8f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_table
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.pricing_table.field_description
+field_name: field_description
+entity_type: block_content
+bundle: pricing_table
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

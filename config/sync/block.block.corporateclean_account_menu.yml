@@ -1,0 +1,27 @@
+uuid: 6c899757-3e93-4f58-985d-480858656afb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - corporateclean
+_core:
+  default_config_hash: DwufHBl_MKAVugJ65vdHniRyc2VDgk0f_kG12dmGrbQ
+id: corporateclean_account_menu
+theme: corporateclean
+region: header_top_highlighted_second
+weight: -41
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

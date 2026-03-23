@@ -1,0 +1,27 @@
+uuid: 661bce9c-3641-45fb-8c74-c096b5978a11
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - basecore
+_core:
+  default_config_hash: _FALXDAuzPVe9ZIs9HITWlqHJFpgdrsJpZHuXI4VCeY
+id: basecore_content
+theme: basecore
+region: content
+weight: -15
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

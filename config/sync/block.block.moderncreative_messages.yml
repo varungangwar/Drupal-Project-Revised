@@ -1,0 +1,22 @@
+uuid: 3ba1157b-0f8b-4663-8f5d-b473e1c41e2e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: xB-zkrZTVIyNV-6-yADyxyGk6mZW38BnCrh2Lf_jW5U
+id: moderncreative_messages
+theme: moderncreative
+region: header
+weight: -13
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

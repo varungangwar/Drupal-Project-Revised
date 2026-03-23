@@ -1,0 +1,19 @@
+uuid: f78103f3-9372-4224-8ea8-86c8dd1781d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.testinomials
+id: paragraph.testinomials.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: testinomials
+label: name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

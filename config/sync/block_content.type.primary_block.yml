@@ -1,0 +1,8 @@
+uuid: 21777acb-41a3-4233-83ba-8a5582785200
+langcode: en
+status: true
+dependencies: {  }
+id: primary_block
+label: 'Primary Block'
+revision: false
+description: 'Blocks that have Heading ,Description ,and a button field.'

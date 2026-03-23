@@ -1,0 +1,56 @@
+uuid: 07950440-ca8c-4a29-a4f3-5f8bb5eaa47d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testinomials.field_description
+    - field.field.paragraph.testinomials.field_designation
+    - field.field.paragraph.testinomials.field_heading
+    - field.field.paragraph.testinomials.field_logo
+    - paragraphs.paragraphs_type.testinomials
+  module:
+    - text
+id: paragraph.testinomials.default
+targetEntityType: paragraph
+bundle: testinomials
+mode: default
+content:
+  field_description:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_designation:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_logo:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

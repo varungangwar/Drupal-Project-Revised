@@ -1,0 +1,40 @@
+uuid: 536f2f8d-1eb5-4bfd-856e-7afed16d694e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_table
+    - field.storage.block_content.field_pricing
+    - paragraphs.paragraphs_type.price_card
+  module:
+    - entity_reference_revisions
+id: block_content.pricing_table.field_pricing
+field_name: field_pricing
+entity_type: block_content
+bundle: pricing_table
+label: Pricing
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      price_card: price_card
+    negate: 0
+    target_bundles_drag_drop:
+      _secondary:
+        weight: 8
+        enabled: false
+      cards:
+        weight: 5
+        enabled: false
+      price_card:
+        weight: 6
+        enabled: true
+      stats:
+        weight: 7
+        enabled: false
+field_type: entity_reference_revisions

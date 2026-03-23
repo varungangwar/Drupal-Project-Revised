@@ -1,0 +1,55 @@
+uuid: 8f1ddcb8-d6dc-4e3e-9a04-3ea9cd998e2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.price_card.field_button
+    - field.field.paragraph.price_card.field_description
+    - field.field.paragraph.price_card.field_heading
+    - field.field.paragraph.price_card.field_pricedescription
+    - paragraphs.paragraphs_type.price_card
+  module:
+    - link
+    - text
+id: paragraph.price_card.default
+targetEntityType: paragraph
+bundle: price_card
+mode: default
+content:
+  field_button:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pricedescription:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

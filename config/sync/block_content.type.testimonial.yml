@@ -1,0 +1,8 @@
+uuid: b5b56de1-95be-4c4b-84b3-4e3c704004cc
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial
+label: Testimonial
+revision: false
+description: ''

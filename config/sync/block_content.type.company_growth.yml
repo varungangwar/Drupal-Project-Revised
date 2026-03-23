@@ -1,0 +1,8 @@
+uuid: 9bb45dde-8364-4537-beb9-fd75926e7884
+langcode: en
+status: true
+dependencies: {  }
+id: company_growth
+label: 'Company Growth'
+revision: false
+description: "all the company's growth stats."

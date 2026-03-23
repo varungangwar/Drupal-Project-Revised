@@ -1,0 +1,25 @@
+uuid: fe8b8ef2-7bbb-4eaa-ba6f-7cb4b7fb1225
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:primary_block:d360fabf-cba0-42c2-b530-2c4118ee761e'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: wanttoworkwithus
+theme: corporateclean
+region: content_bottom_first
+weight: -9
+provider: null
+plugin: 'block_content:d360fabf-cba0-42c2-b530-2c4118ee761e'
+settings:
+  id: 'block_content:d360fabf-cba0-42c2-b530-2c4118ee761e'
+  label: 'Want to work with us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

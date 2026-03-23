@@ -1,0 +1,27 @@
+uuid: 5d685941-8ffb-44ef-9ce6-4c96e48526dd
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - moderncreative
+_core:
+  default_config_hash: 6v6fnsFxlj_tTHMa3keV4Auckj6AT7XSN_aH85gDs8o
+id: moderncreative_footer
+theme: moderncreative
+region: header
+weight: -12
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Quick Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

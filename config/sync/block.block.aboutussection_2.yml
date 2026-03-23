@@ -1,0 +1,25 @@
+uuid: 41aa80a5-9393-4ef1-847b-12aad73a2f88
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:primary_block:5cb394ce-8638-4402-8b29-289c1758bff5'
+  module:
+    - block_content
+  theme:
+    - moderncreative
+id: aboutussection_2
+theme: moderncreative
+region: about
+weight: -15
+provider: null
+plugin: 'block_content:5cb394ce-8638-4402-8b29-289c1758bff5'
+settings:
+  id: 'block_content:5cb394ce-8638-4402-8b29-289c1758bff5'
+  label: 'About Us Section'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
