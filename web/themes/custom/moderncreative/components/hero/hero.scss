@@ -1,0 +1,147 @@
+.hero {
+  background-color: #f3f4f6;
+  background-image: url('../../img/home-bg.png');
+  background-repeat: no-repeat;
+  background-position: right top; /* 🔥 important */
+  background-size: contain;       /* 🔥 important */
+
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+
+/* LAYOUT */
+.hero__container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT CONTENT */
+.hero__content {
+  max-width: 480px;
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2d2d2d;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* BUTTON */
+.hero__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border: 2px solid #f4c430;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  background: transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ARROW */
+.hero__btn::after {
+  content: "→";
+  margin-left: 8px;
+  transition: all 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT */
+.hero__btn:hover {
+  background: #f4c430;
+  padding-right: 40px; /* expands */
+}
+
+/* MOVE ARROW */
+.hero__btn:hover::after {
+  transform: translateX(6px);
+}
+
+/* RIGHT IMAGE */
+.hero__image {
+  position: relative;
+}
+
+.hero__image img {
+  max-width: 380px;
+}
+
+/* REMOVE DRUPAL EXTRA TEXT */
+.hero__image > div > div:first-child {
+  display: none;
+}
+@media (max-width: 992px) {
+
+  .hero {
+    background-size: 80% auto;
+    min-height: 550px;
+    padding: 60px 20px;
+  }
+
+  .hero__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .hero__image img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 576px) {
+
+  .hero {
+    background-size: cover; /* 🔥 better for small screens */
+    background-position: center;
+    min-height: auto;
+    padding: 60px 20px;
+  }
+
+  .hero__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+
+  .hero__btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .hero__image img {
+    max-width: 250px;
+  }
+}

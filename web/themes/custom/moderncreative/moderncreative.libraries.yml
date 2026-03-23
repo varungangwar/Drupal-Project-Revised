@@ -1,0 +1,8 @@
+global-styles:
+  css:
+    theme:
+      css/style.css: {}
+hero:
+  css:
+    theme:
+      css/style.css: {}

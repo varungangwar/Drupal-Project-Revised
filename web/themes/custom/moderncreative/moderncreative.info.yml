@@ -1,0 +1,33 @@
+name: moderncreative
+type: theme
+description: My custom Drupal theme
+core_version_requirement: ^10 || ^11
+base theme: false
+libraries:
+  - portfoliolite/global
+  - portfoliolite/google-font
+  - portfoliolite/fontawesome
+ 
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  hero: 'Hero Section'
+  about: 'About Section'
+  ourcreative: 'Our Creative Section'
+  skills: 'Skills Section'
+  ourservices: 'Our Services Section'
+  stats: 'Stats Section'
+  portfolio: 'Portfolio Section'
+  team: 'Team Section'
+  workwithus: 'Work With Us Section'
+  pricing: 'Pricing Section'
+  workprocess: 'Work Process Section'
+  testimonials: 'Testimonials Section'
+  blog: 'Blog Section'
+  contact: 'Contact Section'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer: 'Footer Bottom'
+components:
+  namespaces:
+    moderncreative: components

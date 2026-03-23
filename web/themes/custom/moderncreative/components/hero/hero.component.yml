@@ -1,0 +1,14 @@
+$schema: https://drupal.org/schemas/core/components/component.schema.json
+name: Hero Banner
+description: Custom hero banner block
+props:
+  type: object
+  properties:
+    field_heading:
+      type: string
+    field_description:
+      type: string
+    field_primary_button:
+      type: string
+    field_block_image:
+      type: string

@@ -1,0 +1,10 @@
+header:
+  label: Header
+  category: Custom
+  template: header
+  library: moderncreative/header
+  regions:
+    logo:
+      label: Logo
+    menu:
+      label: Menu

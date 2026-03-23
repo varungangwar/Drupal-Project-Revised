@@ -1,0 +1,35 @@
+{{ attach_library('moderncreative/hero') }}
+
+<section class="hero" style="background-image: url('{{ directory }}/images/hero-bg.png');">
+
+  <div class="hero__container">
+
+    <div class="hero__content">
+
+      {% if content.field_heading %}
+        <h1 class="hero__title">
+          {{ content.field_heading }}
+        </h1>
+      {% endif %}
+
+      {% if content.field_description is not empty %}
+  <div class="hero__description">
+    {{ content.field_description.0['#text']|striptags  }}
+  </div>
+{% endif %}
+
+      {% if content.field_primary_button %}
+        <div class="hero__buttons">
+          {{ content.field_primary_button }}
+        </div>
+      {% endif %}
+
+    </div>
+
+    <div class="hero__image">
+      {{ content.field_block_image }}
+    </div>
+
+  </div>
+
+</section>

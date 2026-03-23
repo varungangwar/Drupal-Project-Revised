@@ -1,0 +1,106 @@
+{{ attach_library('moderncreative/global-styles') }}
+{# Header Section #}
+{# HEADER #}
+  {% include directory ~ '/components/header/header.twig' %}
+
+
+{{ attach_library('moderncreative/hero') }}
+
+<div class="layout-container">
+
+{% if page.hero %}
+  {{ page.hero }}
+{% endif %}
+
+  <main role="main">
+    {{ page.content }}
+  </main>
+
+  {% if page.footer %}
+    <footer class="site-footer">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>
+
+
+{# About Section #}
+<section id="about">
+  {{ page.about }}
+</section>
+
+{# Our Creative Section #}
+<section id="ourcreative">
+  {{ page.ourcreative }}
+</section>
+
+{# Skills Section #}
+<section id="skills">
+  {{ page.skills }}
+</section>
+
+{# Our Services #}
+<section id="ourservices">
+  {{ page.ourservices }}
+</section>
+
+{# Stats Section #}
+<section id="stats">
+  {{ page.stats }}
+</section>
+
+{# Portfolio Section #}
+<section id="portfolio">
+  {{ page.portfolio }}
+</section>
+
+{# Team Section #}
+<section id="team">
+  {{ page.team }}
+</section>
+
+{# Work With Us #}
+<section id="workwithus">
+  {{ page.workwithus }}
+</section>
+
+{# Pricing Section #}
+<section id="pricing">
+  {{ page.pricing }}
+</section>
+
+{# Work Process #}
+<section id="workprocess">
+  {{ page.workprocess }}
+</section>
+
+{# Testimonials #}
+<section id="testimonials">
+  {{ page.testimonials }}
+</section>
+
+{# Blog Section #}
+<section id="blog">
+  {{ page.blog }}
+</section>
+
+{# Contact Section #}
+<section id="contact">
+  {{ page.contact }}
+</section>
+
+{# Footer Sections #}
+<footer>
+  <div class="footer-first">
+    {{ page.footer_first }}
+  </div>
+
+  <div class="footer-second">
+    {{ page.footer_second }}
+  </div>
+
+  <div class="footer-bottom">
+    {{ page.footer }}
+  </div>
+</footer>
