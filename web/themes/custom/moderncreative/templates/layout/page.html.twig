@@ -1,106 +1,79 @@
+{# GLOBAL STYLES #}
 {{ attach_library('moderncreative/global-styles') }}
-{# Header Section #}
-{# HEADER #}
-  {% include directory ~ '/components/header/header.twig' %}
-
-
-{{ attach_library('moderncreative/hero') }}
 
 <div class="layout-container">
 
-{% if page.hero %}
-  {{ page.hero }}
-{% endif %}
+  {# HEADER #}
+  {% include directory ~ '/components/header/header.twig' %}
 
-  <main role="main">
-    {{ page.content }}
-  </main>
-
-  {% if page.footer %}
-    <footer class="site-footer">
-      {{ page.footer }}
-    </footer>
+  {# HERO SECTION #}
+  {% if page.hero %}
+    {{ page.hero }}
   {% endif %}
 
+  {# ABOUT SECTION (COMPONENT BASED) #}
+{% if page.about %}
+  <section class="about-section">
+    {% include directory ~ '/components/about/about.twig' %}
+  </section>
+{% endif %}
+  {# SKILLS #}
+  {% if page.skills %}
+    <section id="skills">
+      {{ page.skills }}
+    </section>
+  {% endif %}
+
+
+  {# STATS #}
+  {% if page.stats %}
+    <section id="stats">
+      {{ page.stats }}
+    </section>
+  {% endif %}
+
+  {# TESTIMONIALS #}
+  {% if page.testimonials %}
+    <section id="testimonials">
+      {{ page.testimonials }}
+    </section>
+  {% endif %}
+
+  {# BLOG #}
+  {% if page.blog %}
+    <section id="blog">
+      {{ page.blog }}
+    </section>
+  {% endif %}
+
+  {# CONTACT #}
+  {% if page.contact %}
+    <section id="contact">
+      {{ page.contact }}
+    </section>
+  {% endif %}
+
+  {# FOOTER #}
+  <footer>
+
+    {% if page.footer_first %}
+      <div class="footer-first">
+        {{ page.footer_first }}
+      </div>
+    {% endif %}
+
+    {% if page.footer_second %}
+      <div class="footer-second">
+        {{ page.footer_second }}
+      </div>
+    {% endif %}
+
+    {% if page.footer %}
+      <div class="footer-bottom">
+        {{ page.footer }}
+      </div>
+    {% endif %}
+
+  </footer>
+
 </div>
-
-
-{# About Section #}
-<section id="about">
-  {{ page.about }}
-</section>
-
-{# Our Creative Section #}
-<section id="ourcreative">
-  {{ page.ourcreative }}
-</section>
-
-{# Skills Section #}
-<section id="skills">
-  {{ page.skills }}
-</section>
-
-{# Our Services #}
-<section id="ourservices">
-  {{ page.ourservices }}
-</section>
-
-{# Stats Section #}
-<section id="stats">
-  {{ page.stats }}
-</section>
-
-{# Portfolio Section #}
-<section id="portfolio">
-  {{ page.portfolio }}
-</section>
-
-{# Team Section #}
-<section id="team">
-  {{ page.team }}
-</section>
-
-{# Work With Us #}
-<section id="workwithus">
-  {{ page.workwithus }}
-</section>
-
-{# Pricing Section #}
-<section id="pricing">
-  {{ page.pricing }}
-</section>
-
-{# Work Process #}
-<section id="workprocess">
-  {{ page.workprocess }}
-</section>
-
-{# Testimonials #}
-<section id="testimonials">
-  {{ page.testimonials }}
-</section>
-
-{# Blog Section #}
-<section id="blog">
-  {{ page.blog }}
-</section>
-
-{# Contact Section #}
-<section id="contact">
-  {{ page.contact }}
-</section>
-
-{# Footer Sections #}
-<footer>
-  <div class="footer-first">
-    {{ page.footer_first }}
-  </div>
-
-  <div class="footer-second">
-    {{ page.footer_second }}
-  </div>
-
-  <div class="footer-bottom">
-    {{ page.footer }}
-  </div>
-</footer>

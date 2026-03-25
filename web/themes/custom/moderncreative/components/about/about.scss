@@ -1,0 +1,168 @@
+.about-section {
+  background: white;
+  padding: 140px 0; /* 🔥 more vertical space */
+}
+
+/* MAIN WRAPPER */
+.about-wrapper {
+  max-width: 1400px; /* 🔥 increased container width */
+  margin: 0 auto;
+  padding: 0 100px; /* 🔥 more side spacing */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 160px; /* 🔥 BIG GAP between image & content */
+}
+
+/* =========================
+   LEFT SIDE (IMAGE)
+========================= */
+
+.about-wrapper > div:first-child {
+  flex: 1.8; /* 🔥 MUCH BIGGER IMAGE AREA */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-wrapper > div:first-child img {
+  width: 100%;
+  max-width: 900px; /* 🔥 BIG IMAGE */
+  height: auto;
+  display: block;
+
+  transform: scale(1.15); /* 🔥 zoom effect */
+}
+
+/* =========================
+   RIGHT SIDE (CONTENT)
+========================= */
+
+.about-wrapper > div:last-child {
+  flex: 1;
+  max-width: 500px;
+}
+
+/* REMOVE LABELS */
+.field__label {
+  display: none;
+}
+
+/* ABOUT TITLE */
+.about-wrapper h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+/* SUB HEADING */
+.about-wrapper .field--name-field-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 22px;
+}
+
+/* TEXT */
+.about-wrapper p {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.about-wrapper a {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 34px;
+  border: 2px solid #facc15;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-wrapper a:hover {
+  background: #facc15;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   EXTRA LARGE SCREENS
+========================= */
+
+@media (min-width: 1600px) {
+  .about-wrapper {
+    max-width: 1500px;
+    gap: 200px;
+  }
+
+  .about-wrapper > div:first-child img {
+    max-width: 1000px; /* 🔥 EVEN BIGGER */
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+  .about-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 70px;
+    padding: 0 40px;
+  }
+
+  .about-wrapper > div:first-child {
+    justify-content: center;
+  }
+
+  .about-wrapper > div:first-child img {
+    max-width: 550px;
+    transform: none;
+  }
+
+  .about-wrapper > div:last-child {
+    max-width: 100%;
+  }
+
+  .about-wrapper h2 {
+    font-size: 30px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 576px) {
+
+  .about-section {
+    padding: 90px 0;
+  }
+
+  .about-wrapper {
+    padding: 0 20px;
+  }
+
+  .about-wrapper h2 {
+    font-size: 26px;
+  }
+
+  .about-wrapper p {
+    font-size: 14px;
+  }
+
+  .about-wrapper a {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .about-wrapper > div:first-child img {
+    max-width: 320px;
+  }
+}
