@@ -1,0 +1,29 @@
+uuid: c227a51b-3b81-4900-b895-c98fd875e052
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.moderncreative_aboutusimage
+    - field.storage.block_content.field_blockimage
+    - media.type.image
+id: block_content.moderncreative_aboutusimage.field_blockimage
+field_name: field_blockimage
+entity_type: block_content
+bundle: moderncreative_aboutusimage
+label: BlockImage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

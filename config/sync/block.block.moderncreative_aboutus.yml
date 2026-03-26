@@ -1,0 +1,25 @@
+uuid: 84571f54-c82f-4bfe-bff9-67500e6271a2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:moderncreative_aboutus:8b0e732c-1436-4c0e-b864-06b7009728b2'
+  module:
+    - block_content
+  theme:
+    - moderncreative
+id: moderncreative_aboutus
+theme: moderncreative
+region: about
+weight: 0
+provider: null
+plugin: 'block_content:8b0e732c-1436-4c0e-b864-06b7009728b2'
+settings:
+  id: 'block_content:8b0e732c-1436-4c0e-b864-06b7009728b2'
+  label: 'About Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

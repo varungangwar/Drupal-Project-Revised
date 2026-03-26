@@ -1,6 +1,6 @@
 uuid: 976d127f-40eb-42bd-bff4-2071904ede4c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.our_team
@@ -10,7 +10,7 @@ dependencies:
     - moderncreative
 id: views_block__our_team_block_1_2
 theme: moderncreative
-region: team
+region: header
 weight: -16
 provider: null
 plugin: 'views_block:our_team-block_1'

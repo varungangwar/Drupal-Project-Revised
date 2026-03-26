@@ -1,0 +1,22 @@
+uuid: 6c521b5e-a876-433b-90de-991e16881c50
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.moderncreative_aboutus
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.moderncreative_aboutus.field_description
+field_name: field_description
+entity_type: block_content
+bundle: moderncreative_aboutus
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

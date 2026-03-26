@@ -1,0 +1,9 @@
+name: Skills
+description: Skills Section Component
+props:
+  title:
+    type: string
+  description:
+    type: string
+  skills:
+    type: array

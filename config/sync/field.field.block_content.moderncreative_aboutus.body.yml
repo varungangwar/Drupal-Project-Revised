@@ -1,0 +1,24 @@
+uuid: c32c098c-e4ca-4134-bcab-93fb052c2c5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.moderncreative_aboutus
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.moderncreative_aboutus.body
+field_name: body
+entity_type: block_content
+bundle: moderncreative_aboutus
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

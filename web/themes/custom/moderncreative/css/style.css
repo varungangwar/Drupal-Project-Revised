@@ -251,7 +251,7 @@ body.toolbar-fixed .main-header {
 }
 .hero {
   background-color: #f3f4f6;
-  background-image: url("../../img/home-bg.png");
+  background-image: url("../img/home-bg.png");
   background-repeat: no-repeat;
   background-position: right top; /* 🔥 important */
   background-size: contain; /* 🔥 important */
@@ -530,4 +530,106 @@ body.toolbar-fixed .main-header {
   .about-wrapper > div:first-child img {
     max-width: 320px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+.skills-section {
+  padding: 100px 0;
+   background-image: url("../img/skill-bg.png");
+   background-position: center;
+   background-size: cover;
+  
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.skills-left {
+  width: 45%;
+}
+
+.skills-left h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.skills-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.skills-right {
+  width: 55%;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.skill-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b5998, #6a89cc);
+  border-radius: 10px;
+}
+.growth-section {
+  background: 
+    linear-gradient(rgba(20, 40, 70, 0.85), rgba(20, 40, 70, 0.85)),
+    url("../img/hero-01.jpg");
+
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.growth-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.growth-card {
+  background: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.growth-card:hover {
+  transform: translateY(-10px);
+}
+
+.growth-card .icon img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.growth-card h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.growth-card p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}

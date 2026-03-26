@@ -1,0 +1,43 @@
+<section class="skills-section">
+  <div class="container">
+
+    <div class="skills-wrapper">
+
+      <!-- LEFT -->
+      <div class="skills-left">
+        <h2>Our Skills</h2>
+        <div class="desc">
+          {{ content.body }}
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="skills-right">
+
+        {% for item in content.field_stats['#items'] %}
+          <div class="skill">
+
+            <div class="skill-top">
+              <span class="skill-name">
+                {{ item.entity.field_heading.value }}
+              </span>
+              <span class="skill-value">
+                {{ item.entity.field_value.value }}%
+              </span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill"
+                   style="width: {{ item.entity.field_value.value }}%;">
+              </div>
+            </div>
+
+          </div>
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

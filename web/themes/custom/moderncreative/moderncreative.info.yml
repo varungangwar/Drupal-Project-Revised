@@ -5,6 +5,7 @@ core_version_requirement: ^10 || ^11
 base theme: false
 libraries:
   - portfoliolite/global
+  - moderncreative/global-styles
   - portfoliolite/google-font
   - portfoliolite/fontawesome
  
@@ -13,15 +14,8 @@ regions:
   primary_menu: 'Primary Menu'
   hero: 'Hero Section'
   about: 'About Section'
-  ourcreative: 'Our Creative Section'
   skills: 'Skills Section'
-  ourservices: 'Our Services Section'
   stats: 'Stats Section'
-  portfolio: 'Portfolio Section'
-  team: 'Team Section'
-  workwithus: 'Work With Us Section'
-  pricing: 'Pricing Section'
-  workprocess: 'Work Process Section'
   testimonials: 'Testimonials Section'
   blog: 'Blog Section'
   contact: 'Contact Section'

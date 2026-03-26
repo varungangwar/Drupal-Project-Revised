@@ -1,6 +1,6 @@
 uuid: 233b36a6-0489-4a89-aab2-f25a362de6f9
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:pricing_table:10125014-4203-4cf7-9850-88c454324047'
@@ -10,7 +10,7 @@ dependencies:
     - moderncreative
 id: moderncreative_pricingtable
 theme: moderncreative
-region: pricing
+region: header
 weight: -16
 provider: null
 plugin: 'block_content:10125014-4203-4cf7-9850-88c454324047'

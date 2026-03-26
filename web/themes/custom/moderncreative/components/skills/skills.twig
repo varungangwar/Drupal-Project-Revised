@@ -1,0 +1,44 @@
+<div{{ attributes.addClass('contextual-region') }}>
+
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  <section class="skills-section">
+    <div class="container">
+
+      <div class="skills-wrapper">
+
+        <div class="skills-left">
+          <h2>Our Skills</h2>
+          <div class="desc">
+            {{ content.body }}
+          </div>
+        </div>
+
+        <div class="skills-right">
+
+          {% for item in content.field_stats['#items'] %}
+            <div class="skill">
+
+              <div class="skill-top">
+                <span>{{ item.entity.field_heading.value }}</span>
+                <span>{{ item.entity.field_value.value }}%</span>
+              </div>
+
+              <div class="skill-bar">
+                <div class="skill-fill"
+                     style="width: {{ item.entity.field_value.value }}%;">
+                </div>
+              </div>
+
+            </div>
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</div>

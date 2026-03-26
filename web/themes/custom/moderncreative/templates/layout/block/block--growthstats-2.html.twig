@@ -1,0 +1,27 @@
+{{ attach_library('moderncreative/growth') }}
+
+<section class="growth-section">
+  <div class="container">
+    <div class="growth-wrapper">
+
+      {% for item in content.field_growth['#items'] %}
+        {% set entity = item.entity %}
+
+        <div class="growth-card">
+
+          <div class="icon">
+            {% if entity.field_logo.entity %}
+              <img src="{{ file_url(entity.field_logo.entity.field_media_image.entity.uri.value) }}" alt="icon">
+            {% endif %}
+          </div>
+
+          <h2>{{ entity.field_value.value }}</h2>
+          <p>{{ entity.field_heading.value }}</p>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

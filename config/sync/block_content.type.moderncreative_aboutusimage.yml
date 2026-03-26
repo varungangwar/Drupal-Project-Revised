@@ -1,0 +1,8 @@
+uuid: a5df2ef6-74e8-419c-89b5-51112dc4a2ba
+langcode: en
+status: true
+dependencies: {  }
+id: moderncreative_aboutusimage
+label: AboutUsImage
+revision: false
+description: null

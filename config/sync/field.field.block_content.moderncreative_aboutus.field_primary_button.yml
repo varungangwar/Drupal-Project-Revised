@@ -1,0 +1,23 @@
+uuid: 21bc0187-872b-4f05-a89f-5140f451512c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.moderncreative_aboutus
+    - field.storage.block_content.field_primary_button
+  module:
+    - link
+id: block_content.moderncreative_aboutus.field_primary_button
+field_name: field_primary_button
+entity_type: block_content
+bundle: moderncreative_aboutus
+label: primary_Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

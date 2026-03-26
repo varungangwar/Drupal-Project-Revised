@@ -1,0 +1,22 @@
+uuid: 431769cf-631e-43d1-8a1e-92abf96f8db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.moderncreative_aboutusimage
+    - field.field.block_content.moderncreative_aboutusimage.field_blockimage
+id: block_content.moderncreative_aboutusimage.default
+targetEntityType: block_content
+bundle: moderncreative_aboutusimage
+mode: default
+content:
+  field_blockimage:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }
